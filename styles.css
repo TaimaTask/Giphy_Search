@@ -23,19 +23,15 @@ body {
 /* Modal Content body*/
 .modal_cont {
   background-color: #fefefe; /**/
-  margin: auto;/**/
+
   padding: 20px;
   /*border: 1px solid #888;*/
   width: 480px;
-  border-bottom-left-radius: 40px ;
-  border-bottom-right-radius: 40px ;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
   height: 60%;
-  overflow-y:auto;
+
   /*padding-left: -50px;/**/
- 
-  
-  
-  
 }
 
 .modal-header {
@@ -49,24 +45,23 @@ body {
   background-color: #c5af99;
   color: white;
   margin: auto; /**/
-  
+
   /*width: 65%;/**/
-  width:520px;
+  width: 520px;
   border-top-left-radius: 180px 280px;
-  
-  border-top-left-radius: 40px ;
-  border-top-right-radius: 40px ;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
   
 }
-.btn {
+.gifButton {
   background-color: #8c8757;
   color: white;
-  margin-top:690px;
-  margin-left:48%;
+  margin-top: 690px;
+  margin-left: 48%;
 }
 .searcht {
   background-color: #c5af99;
-  background-image: url("search_24px.png"); /* Add a search icon to input */
+  background-image: url("./images/searchIcon.png"); /* Add a search icon to input */
   background-position: 10px 12px; /* Position the search icon */
   background-repeat: no-repeat; /* Do not repeat the icon image */
   width: 75%; /* */
@@ -74,45 +69,40 @@ body {
   padding: 13px 20px 12px 40px; /* Add some padding */
   border: 0px solid #fff; /*     */
   margin-bottom: 10px;
-margin-left:25px;/**/
-margin-top:5px;
-border-width: 0px ;
-  border-top-left-radius: 40px ;
-  border-top-right-radius: 40px ;
+  margin-left: 25px; /**/
+  margin-top: 5px;
+  border-width: 0px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
 }
-
 
 .triangle-down {
-	width: 0;
-	height: 0;
-  margin:auto;
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
-	border-top: 50px solid #fff;
+  width: 0;
+  height: 0;
+  margin: auto; /*no need*/
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid #fff;
 }
 
-.deletet{
- background-image: url("delete_24px.png");
-  visibility:hidden;
+.deletet {
+  background-image: url("./images/xIcon.png");
+  visibility: hidden;
   background-color: #c5af99;
   padding-left: -10px;
   margin-left: 0px;
-  border-width: 0px ;/**/
+  border-width: 0px; /**/
   border-color: #c5af99;
   /*border: 1px  solid #c5af99;/**/
   height: 27px;
   width: 25px;
   background-repeat: no-repeat;
-
 }
-.disply_gif{
-
-  
-  margin-left: -50px;/**/
+.disply_gif {
+  margin-left: -50px; /**/
   margin-top: -20px;
-  
-/**/
+
+  /**/
 
   /*left:50px;/**/
-
 }
