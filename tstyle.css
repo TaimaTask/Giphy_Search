@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The Modal  */
+.tmodal {
+  display: none; /* Hidden by default */
+  position: fixed; /*    */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  /*overflow: auto; /* Enable scroll if needed */
+  /*background-color: rgb(0,0,0); /* Fallback color */
+  /*background-color: rgba(0,0,0,0.4);/**/
+
+  background-color: rgba(8, 10, 1, 0.116); /*color with opacity */
+  /*margin: 20px;*/
+}
+
+/* Modal Content body*/
+.modal_cont {
+  background-color: #fefefe; /**/
+  margin: auto;/**/
+  padding: 20px;
+  /*border: 1px solid #888;*/
+  width: 480px;
+  border-bottom-left-radius: 40px ;
+  border-bottom-right-radius: 40px ;
+  height: 60%;
+  overflow-y:auto;
+  /*padding-left: -50px;/**/
+ 
+  
+  
+  
+}
+
+.modal-header {
+  /* justify-content:baseline;/**/
+
+  /* margin-left: 97.5px;margin-right: 97.5px;*/
+
+  height: 50px; /**/
+
+  /*align-items: "center";*/
+  background-color: #c5af99;
+  color: white;
+  margin: auto; /**/
+  
+  /*width: 65%;/**/
+  width:520px;
+  border-top-left-radius: 180px 280px;
+  
+  border-top-left-radius: 40px ;
+  border-top-right-radius: 40px ;
+  
+}
+.btn {
+  background-color: #8c8757;
+  color: white;
+  margin-top:690px;
+  margin-left:48%;
+}
+.searcht {
+  background-color: #c5af99;
+  background-image: url("search_24px.png"); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 75%; /* */
+  font-size: 16px;
+  padding: 13px 20px 12px 40px; /* Add some padding */
+  border: 0px solid #fff; /*     */
+  margin-bottom: 10px;
+margin-left:25px;/**/
+margin-top:5px;
+border-width: 0px ;
+  border-top-left-radius: 40px ;
+  border-top-right-radius: 40px ;
+}
+
+
+.triangle-down {
+	width: 0;
+	height: 0;
+  margin:auto;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #fff;
+}
+
+.deletet{
+ background-image: url("delete_24px.png");
+  visibility:hidden;
+  background-color: #c5af99;
+  padding-left: -10px;
+  margin-left: 0px;
+  border-width: 0px ;/**/
+  border-color: #c5af99;
+  /*border: 1px  solid #c5af99;/**/
+  height: 27px;
+  width: 25px;
+  background-repeat: no-repeat;
+
+}
+.disply_gif{
+
+  
+  margin-left: -50px;/**/
+  margin-top: -20px;
+  
+/**/
+
+  /*left:50px;/**/
+
+}
