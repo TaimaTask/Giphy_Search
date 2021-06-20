@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The Modal  */
+.modal {
+  display: none; /* Hidden by default */
+  position: absolute; /*    */
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(8, 10, 1, 0.116);   
+}
+
+.modalContent { 
+  position: relative;
+  background-color: #fefefe; /**/
+  margin: auto;/**/
+  padding: 10px;/**/
+  width: 540px;
+  border-bottom-left-radius: 40px ;
+  border-bottom-right-radius: 40px ;
+  height: 60%;
+  overflow-y:auto;
+}
+
+.modal-header {
+  position: relative;
+  height: 50px; /**/
+  background-color: #c5af99;
+  color: white;
+  margin: auto; /**/
+  width:540px;/**/
+  height: 6%;
+  border-radius: 40px 40px 0px  0px;
+  padding: 10px;
+  
+}
+.gifButton {
+  position: relative;
+  background-color: #8c8757;
+  color: white;
+  margin-top:695px;
+  margin-left:50%;
+}
+.searchTerm {
+  background-color: #c5af99;
+  background-image: url("../images/searchIcon.png"); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; 
+  width: 75%; /* */
+  font-size: 16px;
+  padding: 13px 20px 12px 40px; 
+  border: 0px solid #fff; 
+  margin: 5px 0px 10px 25px;
+  border-radius: 40px 40px 0px  0px;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+ margin-left: 50%;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #fff;
+}
+
+.xIcon{
+ background-image: url("../images/xIcon.png");
+  visibility:hidden;
+  background-color: #c5af99;
+  padding-left: -10px;
+  margin-left: 0px;
+  border: 0px #c5af99 ;
+  height: 27px;
+  width: 25px;
+  background-repeat: no-repeat;
+}
+
+.gifView{ 
+  margin:-20px 0 0 -40px;
+}

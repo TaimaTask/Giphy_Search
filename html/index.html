@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TAIMA GIF using html,css and JS</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <button class="gifButton" id="gifButton">GIF</button>
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <input
+          class="searchTerm"
+          type="text"
+          id="searchTerm"
+          placeholder="Search here.."
+        />
+        <button class="xIcon" id="xIcon" type="submit">
+          <i class="xIcon"></i>
+        </button>
+      </div>
+      <div class="modalContent" id="modalContent">
+        <div class="gifView" id="gifView"></div>
+        <div class="loader" id="loader"></div>
+      </div>
+      <div class="triangle-down"></div>
+    </div>
+    <script defer src="../javaScript/js.js"></script>
+  </body>
+</html>
