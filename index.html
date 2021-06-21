@@ -1,39 +1,35 @@
+<!--Rename needed classes name to meaningful name and don't forget to follow best practice in name format (camel case)-->
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TAIMA GIF using html,css and JS</title> 
-    <meta charset="UTF-8">
+    <title>GIF Plugin</title>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="stylesheet" href="tstyle.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <button class="btn" id="opgif">GIF</button>
-    <div class="tmodal" id="tmodal">
-      <div class="modal-header">
+    <button class="gifButton" id="opgif">GIF</button> <!--Rename the id into meaningfull name-->
+    <div class="tmodal" id="tmodal"> <!--Rename the class name into meaningfull name-->
+      <div class="modal-header"> 
+        <!--Rename the class name into meaningfull name => down-->
         <input
-          class="searcht"
+          class="searcht" 
           type="text"
           id="searcht"
-          placeholder="Search here.."
+          placeholder="Search..."
         />
         <button class="deletet" id="deletet" type="submit">
           <i class="deletet"></i>
         </button>
       </div>
-      <div class="modal_cont" id="modal_cont">
-        
-        <div class="disply_gif"id="disply_gif">
-
-          
-        </div>
-        <div class="disply_load"id="disply_load">
-        </div>
+      <div class="modalContent" id="modalCont">
+        <div class="disply_gif" id="disply_gif"></div>
+        <div class="disply_load" id="disply_load"></div>
       </div>
 
       <div class="triangle-down"></div>
     </div>
-    <p id="demo"></p>
     <script defer src="js.js"></script>
   </body>
 </html>
