@@ -22,6 +22,7 @@ window.onclick = function (event) {
 };
 
 document.getElementById("searchTerm").addEventListener("keyup", searchfunc);
+let t = 0;
 
 function searchfunc() {
   page = 1;
